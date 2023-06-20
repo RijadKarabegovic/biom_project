@@ -38,17 +38,17 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mx-5">
+          <div className="mx-5 my-3">
             <hr />
             <div class="text-center d-flex justify-content-between my-4">
-              <div>
+              <div className="my-3">
                 <h4>
                   © 2021 biom. All rights reserved • Privacy Policy • Terms of
                   Service
                 </h4>
               </div>
-              <div className="d-flex">
-                <div className="circle">
+              <div className="d-flex my-3">
+                <div className="circle mx-3">
                   <img src={ig_icon} className="icons_paddings" />
                 </div>
                 <div className="circle">
