@@ -1,0 +1,51 @@
+.subscription-image {
+  background-image: url("../../assets/images/Biom_wipe_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+.margin-for-subscription {
+  position: relative;
+  margin-bottom: -5% !important ;
+  z-index: 1;
+}
+.sizing {
+  border-radius: 14px !important;
+  overflow: hidden;
+}
+.border-radius-class {
+  border-radius: 14px !important;
+}
+
+@media (max-width: 575.98px) {
+  .subscription-image {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .subscription-image {
+    height: 25vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .subscription-image {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .subscription-image {
+    height: 35vh;
+  }
+}
+@media (max-width: 1199.98px) {
+  .subscription-image {
+    background-image: none;
+  }
+}

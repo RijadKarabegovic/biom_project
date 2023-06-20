@@ -1,0 +1,123 @@
+.background-video-class {
+  border-radius: 14px;
+  width: 100%;
+  z-index: 1;
+}
+
+.video-wrapper {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media (max-width: 575.98px) {
+  .learnmore-h5 {
+    font-size: 0.25rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 0.5rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 0.65rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .learnmore-h5 {
+    font-size: 0.5rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 0.75rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 1.5rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 0.75rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .learnmore-h5 {
+    font-size: 0.75rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 1rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 1.75rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .learnmore-h5 {
+    font-size: 1rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 1.25rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 2rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .learnmore-h3 {
+    font-size: 2rem !important;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .learnmore-h5 {
+    font-size: 2.25rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 2.5rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 3.75rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 1.75rem !important;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .learnmore-h5 {
+    font-size: 2.5rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 2.75rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 4rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 2rem !important;
+  }
+}
+
+@media (min-width: 2500px) {
+  .learnmore-h5 {
+    font-size: 2.75rem !important;
+  }
+  .learnmore-h4 {
+    font-size: 3rem !important;
+  }
+  .learnmore-h3 {
+    font-size: 4.25rem !important;
+  }
+  .button-text-learnmore {
+    font-size: 2.15rem !important;
+  }
+}

@@ -1,0 +1,25 @@
+.opacity-72 {
+  opacity: 0.72;
+  padding-top: 6%;
+  z-index: -1;
+}
+
+.circle {
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  border-radius: 50%; /* Makes the element circular */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icons_paddings {
+  width: 50%;
+  height: 50%;
+}

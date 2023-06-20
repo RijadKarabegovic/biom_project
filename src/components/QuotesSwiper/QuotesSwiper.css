@@ -1,0 +1,24 @@
+.line-height-class {
+  line-height: 1.8 !important;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: none;
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #004a4c !important;
+}
+
+.mySwiper2 .swiper-pagination {
+  margin-bottom: 2rem;
+}

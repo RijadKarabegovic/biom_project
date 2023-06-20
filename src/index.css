@@ -1,13 +1,263 @@
 body {
+  color: #002d33 !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding-top: 70px;
+  font-family: "Josefin Sans", sans-serif !important;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h5 {
+  font-size: 1.25rem !important;
+}
+
+h4 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+}
+
+h1 {
+  font-size: 4.5rem !important;
+}
+
+.moving-text-class {
+  font-size: 200px;
+  font-weight: 800 !important;
+  position: relative;
+  animation: move-right 10s infinite linear;
+  z-index: 10;
+  color: #f1f1f1;
+  overflow: visible;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Josefin-Sans";
+  font-style: normal;
+}
+
+.text-font-class {
+  font-family: "Lora", serif;
+  font-weight: 700 !important;
+}
+
+.white-text {
+  color: #fffafa !important;
+}
+
+.green-text {
+  color: #004a4c !important;
+}
+
+.green-for-button {
+  background-color: #004a4c !important;
+}
+
+.black-text {
+  color: #002d33 !important;
+}
+
+.background-color-beige {
+  background-color: #f2f2f2 !important;
+}
+
+.heading1 {
+  font-size: 60px;
+}
+
+.p-hero-sizing {
+  font-size: 25px;
+}
+
+.font-weight-class {
+  font-weight: 700 !important;
+}
+
+@media (max-width: 575.98px) {
+  .heading-size-class {
+    font-size: 3rem !important;
+  }
+  h5 {
+    font-size: 0.9rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  .button-text {
+    font-size: 0.8rem !important;
+  }
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .heading-size-class {
+    font-size: 3.5rem !important;
+  }
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+  h5 {
+    font-size: 1.15rem !important;
+  }
+  h4 {
+    font-size: 1.75rem !important;
+  }
+  h3 {
+    font-size: 2.25rem !important;
+  }
+  .button-text {
+    font-size: 1.2rem !important;
+  }
+  h1 {
+    font-size: 5rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .heading-size-class {
+    font-size: 3rem !important;
+  }
+  h5 {
+    font-size: 1.25rem !important;
+  }
+  h4 {
+    font-size: 2rem !important;
+  }
+  h3 {
+    font-size: 2.5rem !important;
+  }
+  .button-text {
+    font-size: 1.25rem !important;
+  }
+  h1 {
+    font-size: 2.75rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .heading-size-class {
+    font-size: 4rem !important;
+  }
+  h5 {
+    font-size: 1.25rem !important;
+  }
+  h4 {
+    font-size: 1.55rem !important;
+  }
+  h3 {
+    font-size: 2.25rem !important;
+  }
+  .button-text {
+    font-size: 1.25rem !important;
+  }
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heading-size-class {
+    font-size: 5rem !important;
+  }
+  .heading1 {
+    font-size: 75px;
+  }
+  .p-hero-sizing {
+    font-size: 27.5px;
+  }
+  .button-text {
+    font-size: 25.5px !important;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+  h5 {
+    font-size: 1.5rem !important;
+  }
+  h4 {
+    font-size: 2.15rem !important;
+  }
+  h3 {
+    font-size: 2.75rem !important;
+  }
+  h1 {
+    font-size: 7rem !important;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .nav-link {
+    font-size: 1.4rem !important;
+  }
+  .heading1 {
+    font-size: 85px;
+  }
+  .p-hero-sizing {
+    font-size: 30px;
+  }
+  body {
+    padding-top: 5px !important;
+  }
+  .button-text {
+    font-size: 27px !important;
+  }
+  h5 {
+    font-size: 1.75rem !important;
+  }
+  h4 {
+    font-size: 2.5rem !important;
+  }
+  h3 {
+    font-size: 3.25rem !important;
+  }
+  .moving-text-div {
+    transform: translateY(-100%);
+  }
+  h1 {
+    font-size: 7rem !important;
+  }
+}
+
+@media (min-width: 2500px) {
+  .nav-link {
+    font-size: 2rem !important;
+  }
+  .logo {
+    width: 150px;
+  }
+  .heading1 {
+    font-size: 150px;
+  }
+  .p-hero-sizing {
+    font-size: 40px;
+  }
+  .button-text {
+    font-size: 35px !important;
+  }
+  body {
+    padding-top: 15px !important;
+  }
+  h5 {
+    font-size: 2rem !important;
+  }
+  h4 {
+    font-size: 2.75rem !important;
+  }
+  h3 {
+    font-size: 3.75rem !important;
+  }
+  h1 {
+    font-size: 10rem !important;
+  }
 }

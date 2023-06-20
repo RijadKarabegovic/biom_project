@@ -1,0 +1,51 @@
+.subscribe-class {
+  background-color: #dae5e5;
+  border-radius: 14px;
+  overflow: visible;
+  /* background-color: #dae5e5;
+  height: 72.5vh;
+  border-radius: 14px;
+  overflow: visible;
+  position: relative; */
+}
+/* 
+.subscribe-padding-class {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-right: 5%;
+} */
+.image1-wrapper {
+  position: relative;
+  left: 5%;
+}
+.image2-wrapper {
+  position: absolute;
+  left: 70%;
+  top: 65%;
+}
+.icons_text_padding-class {
+  padding: 0 0 7% 10%;
+}
+
+.photo1-positioning {
+  height: 75vh;
+  transform: translateX(-95%) translateY(-8%);
+}
+
+.photo2-positioning {
+  height: 60%;
+  transform: translateX(-48%) translateY(-90%);
+}
+
+@media (max-width: 518px) {
+  .meetbiom-class {
+    background-image: url("../../assets/images/Mask\ Group\ 12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 150px !important;
+  }
+}

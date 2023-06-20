@@ -1,0 +1,35 @@
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper3 .swiper-slide:nth-child(odd) {
+  transform: scale(0.9) translateY(-15%);
+}
+
+.mySwiper3 .swiper {
+  .swiper {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+  }
+}
+
+.mySwiper3 .swiper-pagination-bullet {
+  display: none;
+}
+
+.card-class-ig {
+  max-width: 850px;
+}
+
+.text-green-class {
+  background-color: white !important;
+}
+
+.text-green-class:hover {
+  background-color: #004a4c !important;
+  color: white !important;
+}

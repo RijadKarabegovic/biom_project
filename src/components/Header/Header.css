@@ -1,0 +1,38 @@
+.navbar-font {
+  font-weight: 700 !important;
+  padding-right: 20px;
+}
+
+.navigation-bar-class {
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  height: 7%;
+}
+
+.logo {
+  left: 48% !important;
+}
+.cart-icon {
+  height: 20px;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.8 !important;
+}
+
+.navbar-collapse {
+  flex-grow: none !important;
+}
+
+@media (max-width: 575.98px) {
+  .logo {
+    left: 56% !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .logo {
+    left: 65% !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 575.98px) {
+}

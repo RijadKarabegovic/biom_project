@@ -1,0 +1,189 @@
+.text-left-class {
+  text-align: left;
+}
+
+.text-class {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.card-class {
+  max-width: 450px;
+}
+
+.card-text-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-card-positioning {
+  position: relative;
+  padding-top: 15%;
+  left: 5%;
+}
+
+.bioms-positioning {
+  padding-top: 10%;
+  left: 14%;
+}
+
+.card {
+  border: var(--bs-card-border-width) solid #002d33 !important;
+}
+
+.card-text-color {
+  font-weight: 700;
+  color: #002d33;
+}
+
+.biom-image-class {
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+.biom-description-class {
+  position: absolute;
+  padding-top: 360px;
+  text-align: left;
+  color: white;
+}
+
+.biom-image-class:hover {
+  transform: translateX(25%);
+}
+
+.biom-description-class-smaller {
+  position: absolute;
+  padding-top: 420px;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+.position-transition-for-biom-text {
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+.position-transition-for-biom-text:hover h2 {
+  color: #002d33;
+}
+
+@media (max-width: 575.98px) {
+  .text-card-positioning {
+    left: 5%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 285px;
+  }
+  .biom-description-class {
+    padding-top: 250px;
+  }
+  .card-class {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .text-card-positioning {
+    left: 8%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 285px;
+  }
+  .biom-description-class {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .text-card-positioning {
+    left: 12%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 420px;
+  }
+  .biom-description-class {
+    padding-top: 360px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .text-card-positioning {
+    left: 15%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 320px;
+    font-size: 14px;
+  }
+  .biom-description-class {
+    padding-top: 260px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-card-positioning {
+    left: 5%;
+    padding-top: 10%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 320px;
+  }
+  .biom-description-class {
+    padding-top: 260px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+  .text-card-positioning {
+    left: 5%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 320px;
+    font-size: 20px;
+  }
+  .biom-description-class {
+    padding-top: 260px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .text-card-positioning {
+    left: 5%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 420px;
+  }
+  .biom-description-class {
+    padding-top: 360px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .text-card-positioning {
+    left: 5%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 400px;
+  }
+  .biom-description-class {
+    padding-top: 390px;
+  }
+}
+@media (min-width: 2500px) {
+  .text-card-positioning {
+    left: 5%;
+  }
+  .biom-description-class-smaller {
+    padding-top: 490px;
+  }
+  .biom-description-class {
+    padding-top: 430px;
+  }
+}
